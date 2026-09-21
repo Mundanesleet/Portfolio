@@ -389,10 +389,20 @@ a {
   gap: 6px;
 }
 
+.project-card__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
 .project-card__link {
   font-weight: 700;
-  color: var(--accent);
+  color: var(--text-muted);
   font-size: 0.9rem;
+}
+
+.project-card__link--demo {
+  color: var(--accent);
 }
 
 .project-card__link:hover {
