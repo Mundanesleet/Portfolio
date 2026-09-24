@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Proyectos — ALEJO.DEV</title>
+  <meta name="description" content="Aplicaciones web, sistemas de gestión y herramientas desarrolladas para resolver problemas concretos: Como Arroz, Prospector C&amp;D, Discord Helpdesk Bot y Tienda Timoteo.">
+  <meta name="theme-color" content="#121315">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0&icon_names=account_tree,alternate_email,architecture,arrow_forward,arrow_outward,badge,bug_report,check_small,close,cloud,code,commit,content_copy,database,done,layers,menu,menu_book,open_in_new,public,school,send,south,terminal,troubleshoot,tune,web&display=block">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="proyectos">
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header id="site-header"></header>
+
+  <main id="contenido">
+    <section class="container page-head" style="padding-bottom:0">
+      <div class="page-head__kicker"><span class="status-dot status-dot--sm status-dot--outline" aria-hidden="true"></span><span class="eyebrow">Proyectos</span></div>
+      <h1 class="display" style="max-width:56rem">Problemas reales. Soluciones construidas.</h1>
+      <p class="lead" style="max-width:48rem;margin-top:.25rem">Una selección de aplicaciones web, sistemas administrativos y herramientas desarrolladas para resolver problemas concretos con arquitectura limpia, bases de datos y desarrollo funcional.</p>
+      <div class="filters" role="group" aria-label="Filtrar proyectos">
+        <button class="chip" type="button" data-filter="todos" aria-pressed="true">Todos</button>
+        <button class="chip" type="button" data-filter="web" aria-pressed="false">Aplicaciones Web</button>
+        <button class="chip" type="button" data-filter="gestion" aria-pressed="false">Sistemas de Gestión</button>
+        <button class="chip" type="button" data-filter="herramientas" aria-pressed="false">Herramientas &amp; Automatización</button>
+        <button class="chip" type="button" data-filter="frontend" aria-pressed="false">Frontend</button>
+      </div>
+    </section>
+
+    <section class="container projects" aria-label="Listado de proyectos">
+
+      <!-- 01 COMO ARROZ -->
+      <article class="project project--split" id="como-arroz" data-category="web gestion">
+        <div class="project__visual project__visual--16x10">
+          <img src="assets/images/como-arroz.webp" width="1376" height="768" alt="Panel del sistema de gestión y pedidos del restaurante Como Arroz">
+          <span class="project__label mono"><span class="status-dot status-dot--sm status-dot--live pulse" aria-hidden="true"></span>Desplegado en línea</span>
+        </div>
+        <div class="project__info">
+          <div>
+            <div class="project__meta"><span class="eyebrow">Sistema de Gestión / Restaurante</span><span class="mono dim">01</span></div>
+            <h2 class="h-md project__title">Como Arroz</h2>
+            <p class="project__subtitle">Sistema de gestión y pedidos para restaurante.</p>
+            <p class="project__quote">“De pedidos por WhatsApp a una operación digital centralizada.”</p>
+            <div class="diag">
+              <div class="diag__block"><span class="diag__label mono">// PROBLEMA</span><p>El restaurante tenía un sistema de pedidos basado principalmente en WhatsApp, lo que dificultaba organizar el proceso y trabajar de forma eficiente.</p></div>
+              <div class="diag__block"><span class="diag__label mono">// SOLUCIÓN: CLIENTE → CAJA → COCINA</span><p>Plataforma web que centraliza tres áreas principales: el cliente realiza el pedido, en caja se verifica el pago (transferencia o efectivo) y una vez confirmado pasa a cocina para coordinar la preparación, avance y despacho.</p></div>
+            </div>
+            <div class="block">
+              <span class="eyebrow">Funcionalidades desarrolladas</span>
+              <ul class="features features--2">
+                <li>Catálogo y gestión de productos</li>
+                <li>Categorías</li>
+                <li>Gestión de imágenes</li>
+                <li>Panel administrativo</li>
+                <li>Sistema de pedidos y estados</li>
+                <li>Gestión de pagos</li>
+                <li>Flujo de preparación en cocina</li>
+                <li>Gestión del proceso hasta el envío</li>
+              </ul>
+            </div>
+            <div class="block">
+              <p class="role"><span class="mono">// MI PAPEL:</span><strong>Conceptualización, Arquitectura, Diseño, Desarrollo, Despliegue</strong></p>
+              <ul class="tags">
+                <li class="tag tag--top">Python</li><li class="tag tag--top">Django</li><li class="tag tag--top">PostgreSQL</li><li class="tag tag--top">JavaScript</li><li class="tag tag--top">HTML</li><li class="tag tag--top">CSS</li><li class="tag tag--top">Bootstrap</li><li class="tag tag--top">Cloudinary</li><li class="tag tag--top">Render</li>
+              </ul>
+            </div>
+          </div>
+          <div class="project__actions">
+            <a class="btn btn--primary" href="https://como-arroz-crud.onrender.com/" target="_blank" rel="noopener noreferrer"><span>Ver demo en vivo</span><span class="icon icon--xs" aria-hidden="true">arrow_outward</span></a>
+            <a class="link-arrow link-arrow--sm" href="https://github.com/Mundanesleet/Gestion-menu-como-arroz" target="_blank" rel="noopener noreferrer"><span>Código en GitHub</span><span class="icon icon--xs" aria-hidden="true">arrow_outward</span></a>
+            <span class="badge mono">Operación en vivo</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 02 PROSPECTOR C&D -->
+      <article class="project project--split" id="prospector-cd" data-category="herramientas">
+        <div class="project__visual project__visual--16x10" role="img" aria-label="Esquema ilustrativo de Prospector C&amp;D: búsqueda por zona, resultados estructurados y exportación a Excel">
+          <div class="mock">
+            <div class="mock__head"><span class="row gap-sm"><span class="status-dot status-dot--outline" aria-hidden="true"></span><span class="mono on-surface" style="text-transform:uppercase;letter-spacing:.05em">Prospector C&amp;D // Data Pipeline</span></span><span class="mono dim">Brave Search API</span></div>
+            <div class="mock__panel">
+              <div class="mock__panel-head"><span class="mono text-primary">QUERY: "cargue y descargue // zona"</span><span class="pill-ok mono">resultados estructurados</span></div>
+              <div class="stack" style="gap:.375rem">
+                <div class="mock__row mono"><span>Empresa (ejemplo)</span><span class="dim">Zona • Tel / Web</span><span class="ok">Exportable</span></div>
+                <div class="mock__row mono"><span>Empresa (ejemplo)</span><span class="dim">Zona • Tel / Web</span><span class="ok">Exportable</span></div>
+                <div class="mock__row mono"><span>Empresa (ejemplo)</span><span class="dim">Zona • Contacto</span><span class="ok">Exportable</span></div>
+              </div>
+              <div class="mock__foot mono mono--xs"><span>SQLAlchemy + SQLite Storage</span><span class="mock__tag">Formato: .XLSX</span></div>
+            </div>
+            <div class="mock__foot mono mono--xs"><span>Automatización de prospección</span><span>Vista ilustrativa</span></div>
+          </div>
+        </div>
+        <div class="project__info">
+          <div>
+            <div class="project__meta"><span class="eyebrow">Herramienta &amp; Automatización Comercial</span><span class="mono dim">02</span></div>
+            <h2 class="h-md project__title">Prospector C&amp;D</h2>
+            <p class="project__subtitle">Herramienta de prospección comercial.</p>
+            <p class="project__quote">“Convertir búsquedas dispersas de empresas en información estructurada para facilitar la prospección comercial.”</p>
+            <div class="diag">
+              <div class="diag__block"><span class="diag__label mono">// PROBLEMA</span><p>Una persona dedicada a servicios de cargue y descargue necesitaba encontrar empresas potencialmente relacionadas con estos servicios dentro de determinadas zonas.</p></div>
+              <div class="diag__block"><span class="diag__label mono">// SOLUCIÓN</span><p>Herramienta para realizar búsquedas de empresas según zona y criterios determinados mediante Brave Search, organizar los resultados y exportarlos.</p></div>
+            </div>
+            <div class="block">
+              <span class="eyebrow">Capacidades del sistema</span>
+              <ul class="features">
+                <li>Búsqueda por zona.</li>
+                <li>Búsqueda según criterios.</li>
+                <li>Visualización de resultados.</li>
+                <li>Organización de empresas.</li>
+                <li>Almacenamiento de resultados.</li>
+                <li>Exportación a Excel.</li>
+              </ul>
+            </div>
+            <div class="block">
+              <p class="role"><span class="mono">// MI PAPEL:</span><strong>Idea, Arquitectura, Desarrollo, Integración de búsqueda, Gestión de datos, Exportación</strong></p>
+              <ul class="tags">
+                <li class="tag tag--top">Python</li><li class="tag tag--top">Flask</li><li class="tag tag--top">SQLAlchemy</li><li class="tag tag--top">SQLite</li><li class="tag tag--top">Brave Search</li>
+              </ul>
+            </div>
+          </div>
+          <div class="project__actions">
+            <a class="btn btn--primary" href="https://mundanesleet.pythonanywhere.com/" target="_blank" rel="noopener noreferrer"><span>Ver demo en vivo</span><span class="icon icon--xs" aria-hidden="true">arrow_outward</span></a>
+            <a class="link-arrow link-arrow--sm" href="https://github.com/Mundanesleet/Prospector-C-D" target="_blank" rel="noopener noreferrer"><span>Código en GitHub</span><span class="icon icon--xs" aria-hidden="true">arrow_outward</span></a>
+            <span class="mono dim">Herramienta interna</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 03 y 04 -->
+      <div class="two-col" data-group>
+        <article class="project" id="discord-helpdesk-bot" data-category="herramientas">
+          <div>
+            <div class="project__visual project__visual--16x9" role="img" aria-label="Esquema ilustrativo de comandos del Discord Helpdesk Bot">
+              <div class="mock">
+                <div class="mock__head"><span class="tag tag--top mono">PROYECTO EXPERIMENTAL</span><span class="mono dim">03</span></div>
+                <div class="mock__panel mono mono--xs" style="gap:.375rem">
+                  <span class="dim">// DISCORD HELPDESK BOT</span>
+                  <span class="on-surface"><span class="ok">&gt;</span> /ticket create</span>
+                  <span class="muted">Ticket creado y registrado en SQLite</span>
+                  <span class="on-surface"><span class="ok">&gt;</span> /ticket note</span>
+                </div>
+                <div class="mock__foot mono mono--xs"><span>Gestión dentro de Discord</span><span>Vista ilustrativa</span></div>
+              </div>
+            </div>
+            <span class="eyebrow">Gestión &amp; Automatización</span>
+            <h2 class="h-sm project__title" style="margin-top:.25rem">Discord Helpdesk Bot</h2>
+            <p class="project__subtitle" style="margin-bottom:.5rem">Sistema de gestión de tickets para Discord.</p>
+            <div class="diag" style="margin-top:.5rem">
+              <div class="diag__block"><span class="diag__label mono">// PROBLEMA</span><p>Durante el trabajo con Discord surgió la necesidad de organizar mejor la gestión de solicitudes mediante tickets.</p></div>
+              <div class="diag__block"><span class="diag__label mono">// SOLUCIÓN</span><p>Bot capaz de administrar tickets directamente dentro de Discord.</p></div>
+            </div>
+            <div class="block">
+              <span class="eyebrow">Funcionalidades</span>
+              <ul class="features">
+                <li>Crear ticket.</li><li>Cerrar ticket.</li><li>Asignar ticket.</li><li>Añadir notas.</li><li>Consultar lista de tickets.</li><li>Exportar información.</li><li>Consultar información.</li>
+              </ul>
+            </div>
+            <div class="block">
+              <p class="role"><span class="mono">// PAPEL:</span><strong>Identificación del problema, Conceptualización, Arquitectura, Desarrollo</strong></p>
+              <ul class="tags">
+                <li class="tag tag--top">Python</li><li class="tag tag--top">Discord</li><li class="tag tag--top">SQLAlchemy</li><li class="tag tag--top">SQLite</li>
+              </ul>
+            </div>
+          </div>
+          <div class="project__actions">
+            <a class="link-arrow link-arrow--sm" href="https://github.com/Mundanesleet/Discord-helpdesk-bot" target="_blank" rel="noopener noreferrer"><span>Código en GitHub</span><span class="icon icon--xs" aria-hidden="true">arrow_outward</span></a>
+            <span class="mono mono--xs dim">Experimental</span>
+          </div>
+        </article>
+
+        <article class="project" id="tienda-timoteo" data-category="frontend web">
+          <div>
+            <div class="project__visual project__visual--16x9">
+              <img src="assets/images/tienda-timoteo.webp" width="1376" height="768" loading="lazy" alt="Catálogo de la tienda Timoteo en versión escritorio y móvil">
+              <span class="project__label project__label--sm mono">Frontend responsive</span>
+              <span class="project__num mono">04</span>
+            </div>
+            <span class="eyebrow">Frontend / Comercio Electrónico</span>
+            <h2 class="h-sm project__title" style="margin-top:.25rem">Tienda Timoteo</h2>
+            <p class="project__subtitle" style="margin-bottom:.5rem">Experiencia web para una tienda de productos.</p>
+            <div class="diag" style="margin-top:.5rem">
+              <div class="diag__block"><span class="diag__label mono">// CONTEXTO</span><p>Tienda real que necesitaba una experiencia de compra digital moderna.</p></div>
+              <div class="diag__block"><span class="diag__label mono">// SOLUCIÓN FRONTEND</span><p>Experiencia web completa del frontend, responsive, intuitiva y fluida.</p></div>
+            </div>
+            <div class="block">
+              <span class="eyebrow">Funcionalidades actuales</span>
+              <ul class="features">
+                <li>Catálogo y productos.</li><li>Categorías.</li><li>Información de contacto.</li><li>Diseño responsive.</li><li>Carrito de compra.</li><li>Favoritos.</li><li>Información del último pedido.</li><li>Datos del comprador.</li><li>Flujo de confirmación del pedido.</li>
+              </ul>
+              <div class="evolution" style="margin-top:.5rem"><strong class="mono">// EVOLUCIÓN FUTURA (no implementada)</strong>Actualmente es principalmente frontend. Se contempla convertirla en un sistema completo con backend, base de datos, gestión de productos y pedidos.</div>
+            </div>
+            <div class="block">
+              <p class="role"><span class="mono">// PAPEL:</span><strong>Conceptualización, Arquitectura de interfaz, Diseño, Desarrollo frontend</strong></p>
+              <ul class="tags"><li class="tag tag--top">HTML</li><li class="tag tag--top">CSS</li><li class="tag tag--top">JavaScript</li></ul>
+            </div>
+          </div>
+          <div class="project__actions">
+            <a class="link-arrow link-arrow--sm" href="contacto.html"><span>Consultar sobre este proyecto</span><span class="icon icon--xs" aria-hidden="true">arrow_forward</span></a>
+            <span class="mono mono--xs dim">Frontend activo</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="container" style="padding-block:2.5rem" aria-labelledby="metodo-title">
+      <div class="method reveal">
+        <div class="method__intro">
+          <span class="eyebrow" style="display:block;margin-bottom:.25rem">Criterio técnico</span>
+          <h2 class="h-md" id="metodo-title">Problema → Solución → Desarrollo</h2>
+          <p class="muted" style="margin-top:.25rem;line-height:1.6">Enfoque centrado en comprender las necesidades operativas reales antes de escribir código. Cada línea implementada responde a un requerimiento funcional claro.</p>
+        </div>
+        <div class="grid grid--3 grid--gutter">
+          <div class="method__step"><span class="mono">01 // PROBLEMA</span><h3 class="title-md on-surface">Diagnóstico operativo</h3><p>Comprensión exhaustiva del dolor del usuario o negocio: cuellos de botella en pedidos, datos no estructurados o flujos manuales propensos a fallas.</p></div>
+          <div class="method__step"><span class="mono">02 // SOLUCIÓN</span><h3 class="title-md on-surface">Diseño de arquitectura</h3><p>Definición del modelo relacional, selección pragmática de tecnologías y delimitación de módulos funcionales (cliente, caja, cocina, persistencia).</p></div>
+          <div class="method__step"><span class="mono">03 // DESARROLLO</span><h3 class="title-md on-surface">Desarrollo y entrega</h3><p>Código limpio, estructuración robusta de backend y frontend responsive, listos para operar con estabilidad y documentación clara.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" style="padding-bottom:2.5rem">
+      <div class="cta-card cta-card--mid">
+        <div class="cta-card__text">
+          <span class="eyebrow">Colaboración</span>
+          <h2 class="h-md">¿Tienes una idea o un proyecto?</h2>
+          <p class="muted">Hablemos sobre cómo convertirlo en una solución digital.</p>
+        </div>
+        <a class="btn btn--primary btn--lg" href="mailto:jalexnov5@gmail.com"><span>Hablemos</span><span class="icon" aria-hidden="true">arrow_forward</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

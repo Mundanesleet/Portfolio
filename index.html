@@ -1,237 +1,282 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jait Sossa — Desarrollador Backend Junior</title>
-  <meta name="description" content="Portfolio de Jait Alejandro Sossa Camacho, desarrollador backend junior en Python, Django y Flask, abierto a trabajo remoto en Colombia y Latinoamérica." />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ALEJO.DEV — Python &amp; Web Developer</title>
+  <meta name="description" content="Alejo — Python &amp; Web Developer. Desarrollo soluciones digitales que convierten ideas en productos reales. Colombia · Remote.">
+  <meta name="theme-color" content="#121315">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0&icon_names=account_tree,alternate_email,architecture,arrow_forward,arrow_outward,badge,bug_report,check_small,close,cloud,code,commit,content_copy,database,done,layers,menu,menu_book,open_in_new,public,school,send,south,terminal,troubleshoot,tune,web&display=block">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body data-page="home">
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header id="site-header"></header>
 
-  <header class="nav" id="nav">
-    <div class="nav__inner">
-      <a href="#inicio" class="nav__brand">JS<span class="nav__brand-dot">.</span></a>
-      <nav class="nav__links" id="navLinks">
-        <a href="#inicio" class="nav__link">Inicio</a>
-        <a href="#sobre-mi" class="nav__link">Sobre mí</a>
-        <a href="#habilidades" class="nav__link">Habilidades</a>
-        <a href="#proyectos" class="nav__link">Proyectos</a>
-        <a href="#contacto" class="nav__link">Contacto</a>
-      </nav>
-      <button class="nav__toggle" id="navToggle" aria-label="Abrir menú">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </header>
-
-  <main>
-    <section class="hero" id="inicio">
-      <div class="hero__inner reveal">
-        <div class="hero__avatar" aria-hidden="true">JS</div>
-        <p class="hero__eyebrow">Hola, soy</p>
-        <h1 class="hero__name">Jait Alejandro Sossa Camacho</h1>
-        <p class="hero__role">Desarrollador Backend Junior · Python · Django · Flask</p>
-        <p class="hero__pitch">
-          Construyo aplicaciones web con Python, desde el modelado de datos hasta el despliegue en producción.
-          Antes de programar, enseñé programación — y eso todavía se nota en cómo explico y resuelvo problemas.
-        </p>
-        <div class="hero__cta">
-          <a href="#proyectos" class="btn btn--primary">Ver proyectos</a>
-          <a href="#contacto" class="btn btn--ghost">Contactar</a>
+  <main id="contenido">
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__meta">
+          <div class="pill mono">
+            <span class="status-dot pulse" aria-hidden="true"></span>
+            <span>Abierto a oportunidades profesionales y proyectos de desarrollo web.</span>
+          </div>
+          <span class="mono">Colombia · Remote</span>
         </div>
-      </div>
-      <a href="#sobre-mi" class="scroll-hint" aria-label="Bajar a la siguiente sección">
-        <span></span>
-      </a>
-    </section>
 
-    <section class="section" id="sobre-mi">
-      <div class="section__inner reveal">
-        <p class="section__eyebrow">Sobre mí</p>
-        <h2 class="section__title">Cómo llegué al desarrollo</h2>
-        <div class="about">
-          <p class="about__text">
-            Soy desarrollador backend junior enfocado en Python, con experiencia práctica construyendo aplicaciones
-            web con Django y Flask: modelado de datos, funcionalidades CRUD, integración de APIs externas y
-            despliegue en producción. Trabajo también con HTML, CSS, JavaScript y Bootstrap para el frontend de mis
-            proyectos.
-          </p>
-          <p class="about__text">
-            Antes de dedicarme de lleno al desarrollo, trabajé enseñando programación — Python, JavaScript,
-            HTML/CSS, lógica y algoritmos. Esa experiencia me dejó algo que uso todos los días como desarrollador:
-            explicar ideas técnicas con claridad, tener paciencia para resolver problemas paso a paso, y comunicarme
-            bien con equipos y usuarios no técnicos.
-          </p>
-          <p class="about__text">
-            Uso Git y GitHub como parte de mi flujo de trabajo diario, y estoy en constante aprendizaje —
-            actualmente profundizando en redes (Cisco) como conocimiento complementario. Busco una oportunidad
-            remota en Colombia o Latinoamérica donde seguir creciendo como desarrollador backend.
-          </p>
+        <div class="hero__grid">
+          <div class="hero__copy">
+            <p class="hero__kicker mono"><span>ALEJO</span><span aria-hidden="true">•</span><span>PYTHON &amp; WEB DEVELOPER</span></p>
+            <h1 class="display hero__title" id="hero-title">“Desarrollo soluciones digitales que convierten ideas en productos reales.”</h1>
+            <p class="lead hero__lead">Identifico problemas, entiendo necesidades y desarrollo soluciones digitales funcionales. Especializado en backend con Python, APIs estructuradas, modelado de bases de datos e interfaces limpias.</p>
+            <div class="hero__cta">
+              <a class="btn btn--primary btn--lg" href="#proyectos"><span>Ver proyectos destacados</span><span class="icon" aria-hidden="true">south</span></a>
+              <a class="btn btn--secondary btn--lg" href="sobre-mi.html"><span>Sobre mí</span><span class="icon" aria-hidden="true">arrow_forward</span></a>
+            </div>
+          </div>
+
+          <aside class="card callout" aria-label="Enfoque técnico">
+            <div class="stack gap-sm">
+              <span class="eyebrow">Enfoque técnico</span>
+              <p class="h-sm on-surface">Problemas reales. Soluciones construidas.</p>
+              <p class="body-sm muted">Desarrollo pragmático de software con foco en resolver cuellos de botella mediante código mantenible y arquitectura limpia.</p>
+            </div>
+            <div class="callout__rows mono">
+              <div class="callout__row"><span>Stack principal</span><span class="strong">Python, Django, Flask, PostgreSQL</span></div>
+              <div class="callout__row"><span>Disponibilidad</span><span class="on-surface">Disponible para oportunidades profesionales</span></div>
+            </div>
+          </aside>
         </div>
+
+        <figure class="hero__visual">
+          <div class="hero__visual-frame">
+            <img src="assets/images/hero-workspace.webp" width="1376" height="768" alt="Espacio de trabajo de desarrollo con un portátil mostrando código Python" fetchpriority="high">
+            <div class="hero__visual-shade" aria-hidden="true"></div>
+            <figcaption class="hero__visual-bar">
+              <span class="row gap-sm"><span class="status-dot status-dot--outline" aria-hidden="true"></span><span class="mono on-surface">Entorno de Producción &amp; Desarrollo</span></span>
+              <span class="mono muted">alejo_architecture.py</span>
+            </figcaption>
+          </div>
+        </figure>
       </div>
     </section>
 
-    <section class="section section--alt" id="habilidades">
-      <div class="section__inner reveal">
-        <p class="section__eyebrow">Habilidades</p>
-        <h2 class="section__title">Con qué trabajo</h2>
-        <div class="skills">
-          <div class="skills__group">
-            <h3 class="skills__group-title">Lenguajes</h3>
-            <div class="skills__tags">
-              <span class="tag">Python</span>
-              <span class="tag">JavaScript</span>
-              <span class="tag">SQL</span>
-              <span class="tag">HTML</span>
-              <span class="tag">CSS</span>
-            </div>
+    <!-- ENFOQUE PROFESIONAL -->
+    <section class="section band" aria-labelledby="enfoque-title">
+      <div class="container stack gap-xl">
+        <div class="section-head reveal">
+          <div class="section-head__text">
+            <span class="eyebrow">Enfoque profesional</span>
+            <h2 class="h-lg on-surface" id="enfoque-title">¿Qué hago y cómo aporto valor?</h2>
           </div>
-          <div class="skills__group">
-            <h3 class="skills__group-title">Backend</h3>
-            <div class="skills__tags">
-              <span class="tag">Django</span>
-              <span class="tag">Flask</span>
-              <span class="tag">SQLAlchemy</span>
-              <span class="tag">APIs REST</span>
+          <p class="section-head__aside">Especialización en ingeniería de software para construir sistemas sólidos, desde la persistencia de datos hasta la interacción final del usuario.</p>
+        </div>
+        <div class="grid grid--3 reveal">
+          <article class="card card--hover pillar">
+            <div class="pillar__body">
+              <div class="icon-box"><span class="icon icon--lg" aria-hidden="true">web</span></div>
+              <h3 class="h-sm on-surface">Desarrollo de Soluciones Web</h3>
+              <p class="muted">Construcción de aplicaciones web completas, sistemas administrativos y herramientas orientadas a resolver cuellos de botella reales con Python, Django y Flask.</p>
             </div>
-          </div>
-          <div class="skills__group">
-            <h3 class="skills__group-title">Frontend</h3>
-            <div class="skills__tags">
-              <span class="tag">Bootstrap</span>
-              <span class="tag">Diseño de interfaces web</span>
+            <div class="card-foot mono">Python • Django • Flask</div>
+          </article>
+          <article class="card card--hover pillar">
+            <div class="pillar__body">
+              <div class="icon-box"><span class="icon icon--lg" aria-hidden="true">database</span></div>
+              <h3 class="h-sm on-surface">Arquitectura de Datos y Backend</h3>
+              <p class="muted">Modelado y persistencia eficiente con PostgreSQL, SQLite y SQLAlchemy. Lógica transaccional estructurada y servicios en la nube.</p>
             </div>
-          </div>
-          <div class="skills__group">
-            <h3 class="skills__group-title">Bases de datos</h3>
-            <div class="skills__tags">
-              <span class="tag">PostgreSQL</span>
-              <span class="tag">SQLite</span>
-              <span class="tag">Neon</span>
+            <div class="card-foot mono">PostgreSQL • SQLAlchemy • SQLite</div>
+          </article>
+          <article class="card card--hover pillar">
+            <div class="pillar__body">
+              <div class="icon-box"><span class="icon icon--lg" aria-hidden="true">school</span></div>
+              <h3 class="h-sm on-surface">Formación y Docencia Técnica</h3>
+              <p class="muted">Experiencia capacitando a docentes y estudiantes en programación, estructurando contenidos didácticos y comunicando conceptos técnicos con total claridad.</p>
             </div>
-          </div>
-          <div class="skills__group">
-            <h3 class="skills__group-title">Herramientas</h3>
-            <div class="skills__tags">
-              <span class="tag">Git</span>
-              <span class="tag">GitHub</span>
-              <span class="tag">Render</span>
-              <span class="tag">Cloudinary</span>
-            </div>
-          </div>
-          <div class="skills__group">
-            <h3 class="skills__group-title">Docencia (complementario)</h3>
-            <div class="skills__tags">
-              <span class="tag tag--muted">Enseñanza de programación</span>
-              <span class="tag tag--muted">Comunicación técnica</span>
-            </div>
-          </div>
+            <div class="card-foot mono">Pedagogía • Lógica de Programación</div>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="section" id="proyectos">
-      <div class="section__inner reveal">
-        <p class="section__eyebrow">Proyectos</p>
-        <h2 class="section__title">Cosas que construí</h2>
-        <div class="projects">
+    <!-- STACK -->
+    <section class="section" aria-labelledby="stack-title">
+      <div class="container stack gap-xl">
+        <div class="section-head reveal" style="border-bottom:1px solid color-mix(in srgb,var(--outline-variant) 30%,transparent);padding-bottom:.5rem">
+          <div class="section-head__text">
+            <span class="eyebrow">Stack tecnológico</span>
+            <h2 class="h-md on-surface" id="stack-title">Herramientas y Tecnologías Confirmadas</h2>
+          </div>
+          <p class="body-sm muted">Sin niveles porcentuales arbitrarios: herramientas utilizadas activamente en producción.</p>
+        </div>
+        <div class="grid grid--5 reveal">
+          <div class="tech-col">
+            <div class="tech-col__head"><span class="icon" aria-hidden="true">terminal</span><h3 class="eyebrow">Backend</h3></div>
+            <ul class="tech-col__list">
+              <li class="tech-item"><b>Python</b><span>Lenguaje</span></li>
+              <li class="tech-item"><b>Django</b><span>Framework</span></li>
+              <li class="tech-item"><b>Flask</b><span>Microframework</span></li>
+            </ul>
+          </div>
+          <div class="tech-col">
+            <div class="tech-col__head"><span class="icon" aria-hidden="true">code</span><h3 class="eyebrow">Frontend</h3></div>
+            <ul class="tech-col__list">
+              <li class="tech-item"><b>HTML</b><span>Estructura</span></li>
+              <li class="tech-item"><b>CSS</b><span>Estilos</span></li>
+              <li class="tech-item"><b>JavaScript</b><span>Frontend DOM</span></li>
+              <li class="tech-item"><b>Bootstrap</b><span>UI Framework</span></li>
+            </ul>
+          </div>
+          <div class="tech-col">
+            <div class="tech-col__head"><span class="icon" aria-hidden="true">database</span><h3 class="eyebrow">Bases de datos</h3></div>
+            <ul class="tech-col__list">
+              <li class="tech-item"><b>PostgreSQL</b><span>Relacional</span></li>
+              <li class="tech-item"><b>SQLite</b><span>Local</span></li>
+              <li class="tech-item"><b>SQL</b><span>Consultas</span></li>
+              <li class="tech-item"><b>SQLAlchemy</b><span>ORM</span></li>
+            </ul>
+          </div>
+          <div class="tech-col">
+            <div class="tech-col__head"><span class="icon" aria-hidden="true">commit</span><h3 class="eyebrow">Tools</h3></div>
+            <ul class="tech-col__list">
+              <li class="tech-item"><b>Git</b><span>Versiones</span></li>
+              <li class="tech-item"><b>GitHub</b><span>Repositorios</span></li>
+            </ul>
+          </div>
+          <div class="tech-col">
+            <div class="tech-col__head"><span class="icon" aria-hidden="true">cloud</span><h3 class="eyebrow">Cloud / Deploy</h3></div>
+            <ul class="tech-col__list">
+              <li class="tech-item"><b>Render</b><span>Hosting</span></li>
+              <li class="tech-item"><b>Neon</b><span>Serverless Postgres</span></li>
+              <li class="tech-item"><b>Cloudinary</b><span>Media Storage</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
-          <article class="project-card">
-            <div class="project-card__body">
-              <h3 class="project-card__title">Prospector C&amp;D</h3>
-              <p class="project-card__desc">
-                Herramienta de prospección comercial: encuentra, investiga y organiza empresas que podrían necesitar
-                servicios de cargue y descargue en Bogotá y municipios cercanos. Integra tres fuentes de datos
-                externas, deduplica resultados y exporta a Excel.
-              </p>
-              <div class="project-card__tags">
-                <span class="tag">Python</span>
-                <span class="tag">Flask</span>
-                <span class="tag">SQLAlchemy</span>
-                <span class="tag">APIs externas</span>
+    <!-- PROYECTOS DESTACADOS -->
+    <section class="section band" id="proyectos" aria-labelledby="proyectos-title">
+      <div class="container stack gap-xl">
+        <div class="section-head reveal">
+          <div class="section-head__text">
+            <span class="eyebrow">Portafolio seleccionado</span>
+            <h2 class="h-lg on-surface" id="proyectos-title">Proyectos Destacados</h2>
+          </div>
+          <p class="section-head__aside">Estructurados bajo el criterio de ingeniería: <strong class="on-surface" style="font-weight:500">Problema → Solución → Desarrollo</strong>.</p>
+        </div>
+
+        <div class="feature-list">
+          <article class="feature reveal">
+            <div class="feature__visual">
+              <img src="assets/images/como-arroz.webp" width="1376" height="768" loading="lazy" alt="Panel del sistema de pedidos y gestión del restaurante Como Arroz">
+              <span class="feature__badge mono">Sistema de Gestión</span>
+            </div>
+            <div class="feature__info">
+              <div class="stack gap-sm">
+                <span class="mono dim">PROYECTO 01 • RESTAURANTE / BACKEND</span>
+                <div>
+                  <h3 class="h-md on-surface">Como Arroz</h3>
+                  <p class="body-sm dim">Sistema de gestión y pedidos para restaurante.</p>
+                </div>
+                <p class="feature__quote">“De pedidos por WhatsApp a una operación digital centralizada.”</p>
+                <div class="ps">
+                  <div class="ps__item"><span class="ps__label">Problema</span><p class="ps__text">El restaurante tenía un sistema de pedidos basado principalmente en WhatsApp, lo que dificultaba organizar el proceso y trabajar de forma eficiente.</p></div>
+                  <div class="ps__item ps__item--solution"><span class="ps__label">Solución</span><p class="ps__text">Plataforma web que centraliza la operación en tres áreas: <strong>CLIENTE → CAJA → COCINA</strong>. El cliente realiza el pedido, en caja se verifica el pago (transferencia o efectivo) y una vez confirmado pasa a cocina para coordinar preparación y despacho.</p></div>
+                </div>
+                <ul class="tags">
+                  <li class="tag">Python</li><li class="tag">Django</li><li class="tag">PostgreSQL</li><li class="tag">JavaScript</li><li class="tag">HTML</li><li class="tag">CSS</li><li class="tag">Bootstrap</li><li class="tag">Cloudinary</li><li class="tag">Render</li>
+                </ul>
               </div>
-            </div>
-            <div class="project-card__links">
-              <a class="project-card__link project-card__link--demo" href="https://mundanesleet.pythonanywhere.com/" target="_blank" rel="noopener">
-                Ver demo en vivo →
-              </a>
-              <a class="project-card__link" href="https://github.com/Mundanesleet/Prospector-C-D" target="_blank" rel="noopener">
-                Ver en GitHub →
-              </a>
+              <div class="feature__foot"><a class="link-arrow" href="proyectos.html#como-arroz"><span>Ver detalles del proyecto</span><span class="icon icon--sm" aria-hidden="true">arrow_forward</span></a></div>
             </div>
           </article>
 
-          <article class="project-card">
-            <div class="project-card__body">
-              <h3 class="project-card__title">Gestión Menú Como Arroz</h3>
-              <p class="project-card__desc">
-                Backend en Django del menú digital de un restaurante real: administra productos y pedidos desde una
-                base de datos en producción, con manejo de imágenes y panel de administración.
-              </p>
-              <div class="project-card__tags">
-                <span class="tag">Django</span>
-                <span class="tag">PostgreSQL</span>
-                <span class="tag">Cloudinary</span>
-                <span class="tag">Render</span>
+          <article class="feature reveal">
+            <div class="feature__visual diagram" role="img" aria-label="Esquema ilustrativo: Prospector C&amp;D obtiene datos con Brave Search API, los guarda con SQLAlchemy y SQLite y los exporta a Excel">
+              <div class="diagram__bar mono"><span>PROSPECTOR C&amp;D // DATA ENGINE</span><span class="live"><span class="status-dot status-dot--sm pulse"></span>SEARCH API</span></div>
+              <div class="diagram__body">
+                <span class="h-sm on-surface">Extracción y Estructuración de Leads B2B</span>
+                <div class="diagram__rows mono mono--xs">
+                  <div><span>Query Engine:</span><span class="text-primary">Brave Search API</span></div>
+                  <div><span>Data Storage:</span><span class="text-on">SQLAlchemy + SQLite</span></div>
+                  <div><span>Output Formats:</span><span class="text-on">Excel (.xlsx)</span></div>
+                </div>
               </div>
+              <div class="diagram__foot mono mono--xs"><span>COMMERCIAL INTELLIGENCE</span><span>EXPORT AUTOMATION</span></div>
             </div>
-            <div class="project-card__links">
-              <a class="project-card__link project-card__link--demo" href="https://como-arroz-crud.onrender.com/" target="_blank" rel="noopener">
-                Ver demo en vivo →
-              </a>
-              <a class="project-card__link" href="https://github.com/Mundanesleet/Gestion-menu-como-arroz" target="_blank" rel="noopener">
-                Ver en GitHub →
-              </a>
+            <div class="feature__info">
+              <div class="stack gap-sm">
+                <span class="mono dim">PROYECTO 02 • PROSPECCIÓN COMERCIAL</span>
+                <div>
+                  <h3 class="h-md on-surface">Prospector C&amp;D</h3>
+                  <p class="body-sm dim">Herramienta de prospección comercial.</p>
+                </div>
+                <p class="feature__quote">“Convertir búsquedas dispersas de empresas en información estructurada para facilitar la prospección comercial.”</p>
+                <div class="ps">
+                  <div class="ps__item"><span class="ps__label">Problema</span><p class="ps__text">Una persona dedicada a servicios de cargue y descargue necesitaba encontrar empresas potencialmente relacionadas con estos servicios dentro de determinadas zonas.</p></div>
+                  <div class="ps__item ps__item--solution"><span class="ps__label">Solución</span><p class="ps__text">Herramienta que realiza búsquedas de empresas según zona y criterios mediante Brave Search, organiza los resultados y permite exportarlos a Excel.</p></div>
+                </div>
+                <ul class="tags">
+                  <li class="tag">Python</li><li class="tag">Flask</li><li class="tag">SQLAlchemy</li><li class="tag">SQLite</li><li class="tag">Brave Search</li>
+                </ul>
+              </div>
+              <div class="feature__foot"><a class="link-arrow" href="proyectos.html#prospector-cd"><span>Ver detalles del proyecto</span><span class="icon icon--sm" aria-hidden="true">arrow_forward</span></a></div>
             </div>
           </article>
 
-          <article class="project-card">
-            <div class="project-card__body">
-              <h3 class="project-card__title">Discord Helpdesk Bot</h3>
-              <p class="project-card__desc">
-                Bot de Discord para gestionar tickets de soporte técnico: crear, asignar, comentar, cerrar y exportar
-                el historial completo a Excel, con notificaciones automáticas para el equipo de soporte.
-              </p>
-              <div class="project-card__tags">
-                <span class="tag">Python</span>
-                <span class="tag">discord.py</span>
-                <span class="tag">SQLAlchemy</span>
-              </div>
+          <article class="feature reveal">
+            <div class="feature__visual">
+              <img src="assets/images/tienda-timoteo.webp" width="1376" height="768" loading="lazy" alt="Catálogo de productos de la tienda Timoteo en versión escritorio y móvil">
+              <span class="feature__badge mono">E-Commerce • Catálogo</span>
             </div>
-            <a class="project-card__link" href="https://github.com/Mundanesleet/Discord-helpdesk-bot" target="_blank" rel="noopener">
-              Ver en GitHub →
-            </a>
+            <div class="feature__info">
+              <div class="stack gap-sm">
+                <span class="mono dim">PROYECTO 03 • COMERCIO DIGITAL</span>
+                <div>
+                  <h3 class="h-md on-surface">Tienda Timoteo</h3>
+                  <p class="body-sm dim">Experiencia web para una tienda de productos.</p>
+                </div>
+                <div class="ps">
+                  <div class="ps__item"><span class="ps__label">Contexto</span><p class="ps__text">Tienda real que necesitaba una experiencia de compra digital moderna.</p></div>
+                  <div class="ps__item ps__item--solution"><span class="ps__label">Solución</span><p class="ps__text">Frontend web responsive con catálogo, carrito de compra, favoritos y flujo de confirmación del pedido.</p></div>
+                </div>
+                <ul class="tags"><li class="tag">HTML</li><li class="tag">CSS</li><li class="tag">JavaScript</li></ul>
+              </div>
+              <div class="feature__foot"><a class="link-arrow" href="proyectos.html#tienda-timoteo"><span>Ver detalles del proyecto</span><span class="icon icon--sm" aria-hidden="true">arrow_forward</span></a></div>
+            </div>
           </article>
+        </div>
 
+        <div class="center">
+          <a class="btn btn--outline btn--lg" href="proyectos.html"><span>Ver todos los proyectos en el catálogo</span><span class="icon" aria-hidden="true">arrow_forward</span></a>
         </div>
       </div>
     </section>
 
-    <section class="section section--alt" id="contacto">
-      <div class="section__inner reveal">
-        <p class="section__eyebrow">Contacto</p>
-        <h2 class="section__title">Hablemos</h2>
-        <p class="contact__text">
-          Estoy buscando una oportunidad remota en Colombia o Latinoamérica en desarrollo backend, desarrollo web o
-          automatización con Python. Si tenés algo que pueda encajar, escribime.
-        </p>
-        <div class="contact__links">
-          <a class="btn btn--primary" href="mailto:jalexnov5@gmail.com">jalexnov5@gmail.com</a>
-          <a class="btn btn--ghost" href="https://github.com/Mundanesleet" target="_blank" rel="noopener">GitHub</a>
-          <a class="btn btn--ghost" href="https://www.linkedin.com/in/jait-alejandro-sossa-camacho-711773250/" target="_blank" rel="noopener">LinkedIn</a>
+    <!-- CIERRE -->
+    <section class="closing" aria-labelledby="cierre-title">
+      <div class="closing__inner reveal">
+        <span class="eyebrow">Contacto • Colaboración</span>
+        <h2 class="display closing__title" id="cierre-title">¿Tienes una idea o un proyecto?</h2>
+        <p class="lead">Hablemos sobre cómo convertirlo en una solución digital.</p>
+        <div class="closing__cta">
+          <a class="btn btn--primary btn--xl" href="mailto:jalexnov5@gmail.com"><span>Hablemos</span><span class="icon" aria-hidden="true">arrow_forward</span></a>
+          <a class="btn btn--outline btn--lg" href="https://github.com/Mundanesleet" target="_blank" rel="noopener noreferrer"><span class="icon" aria-hidden="true">code</span><span>GitHub</span></a>
+          <a class="btn btn--outline btn--lg" href="https://www.linkedin.com/in/jait-alejandro-sossa-camacho-711773250/" target="_blank" rel="noopener noreferrer"><span class="icon" aria-hidden="true">badge</span><span>LinkedIn</span></a>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="footer">
-    <p>&copy; <span id="year"></span> Jait Alejandro Sossa Camacho.</p>
-  </footer>
-
-  <script src="js/script.js"></script>
+  <footer id="site-footer"></footer>
+  <script src="js/main.js"></script>
 </body>
 </html>
